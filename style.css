@@ -1,16 +1,26 @@
+body{
+    background: linear-gradient(0deg, rgba(236,215,192,1) 9%, rgba(255,255,255,1) 100%);
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-h2{
+h2, h3, p{
     font-family: Arial, Helvetica, sans-serif;
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
 }
 
+
 .titlediv{
-    border: 1px solid #f00; 
+    margin: auto;
+    width: 60%;
+    padding: 1em;
     text-align: center;
-    background-color: firebrick;
+}
+
+.contentdiv{
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
 }

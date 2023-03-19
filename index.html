@@ -9,27 +9,36 @@
 </head>
 <body>
     <div class="titlediv">
-        <h1>Hello world !</h1>
-        <p>Here is a page to test GitHub Pages and some JavaScript libraries</p>
+        <h1>Hello world !</h1> <h2>Here is a page to test GitHub Pages and some JavaScript libraries </h2> 
     </div>
     
-    <h2>Mermaid.js : diagramms, charts and timelines</h2>
-    <pre class="mermaid">
-        mindmap
-  root((mindmap))
-    Origins
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
+    <h2>Mermaid.js - diagramms, charts and timelines</h2>
+
+    <h3>Here is one mermaid diagramm</h3>
+    <div class="contentdiv">
+      <pre class="mermaid">
+        graph TD 
+        A[Client] --> B[Load Balancer] 
+        B --> C[Server1] 
+        B --> D[Server2]
     </pre>
+    </div>
+
+    <h3>Here is one mermaid timeline</h3>
+    <div class="contentdiv">
+      <pre class="mermaid">
+        timeline 
+        title History of Social Media Platforms
+        2002 : LinkedIn
+        2004 : Facebook : Google
+        2005 : Youtube
+        2006 : Twitter
+        
+    </pre>
+    </div>
     
-    <h2>Reveal.js : </h2>
+    
+    <h2>Reveal.js - presentations </h2>
     
     <!--Script for Mermaid library. Some options can be added in "mermaid.initialize"--> 
     <script type="module">
